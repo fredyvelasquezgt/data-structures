@@ -15,3 +15,15 @@ juegos.forEach( (elemento, indice, arr) => {
 juegos.push('WSPR')
 
 console.log({juegos})
+
+juegos.unshift('Fire Emblem')
+console.log({juegos})
+
+let juegoBorrado = juegos.pop()
+console.log({juegoBorrado})
+
+let pos = 1;
+juegos.splice(pos, 1)
+console.log({juegos})
+
+let metroidIndex = juegos.indexOf('Metroid')
