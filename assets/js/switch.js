@@ -11,4 +11,6 @@ switch(dia) {
     case 2: 
         console.log('martes')
     break;
+    default:
+        console.log('no es ningun dia');
 }
